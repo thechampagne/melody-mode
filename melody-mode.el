@@ -129,7 +129,7 @@
   "A major mode for the Melody programming language."
   :syntax-table melody-mode-syntax-table
   (setq-local font-lock-defaults '(melody-font-lock-keywords))
-  (setq-local comment-start "//")
+  (setq-local comment-start "// ")
   (setq-local comment-end ""))
 
 ;;;###autoload
